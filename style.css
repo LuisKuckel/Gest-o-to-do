@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+}
+h3 {
+  font-size: small;
+  color: #9a9292;
+}
+
+.link__cadastro {
+  text-decoration: underline;
+  color: rgb(90, 21, 90);
+  font-size: small;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.form-container {
+  padding: 40px;
+  flex: 1;
+  background-color: #f9f9f9;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.image-container {
+  flex: 1;
+  background-image: url("/img/alien\ code.jpeg");
+  background-size: cover;
+  background-position: center;
+}
