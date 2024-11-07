@@ -1,10 +1,10 @@
-package Seminario.web.Calenderdeaulas;
+package br.com.api.calender;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CalenderdeaulasApplicationTests {
+class CalenderApplicationTests {
 
 	@Test
 	void contextLoads() {

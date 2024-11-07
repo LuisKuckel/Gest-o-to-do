@@ -1,13 +1,13 @@
-package Seminario.web.Calenderdeaulas;
+package br.com.api.calender;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CalenderdeaulasApplication {
+public class CalenderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CalenderdeaulasApplication.class, args);
+		SpringApplication.run(CalenderApplication.class, args);
 	}
 
 }

@@ -8,11 +8,11 @@
 		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>Seminario.web</groupId>
-	<artifactId>Calenderdeaulas</artifactId>
+	<groupId>br.com.api</groupId>
+	<artifactId>calender</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Calenderdeaulas</name>
-	<description>Seminário Web _ Calendário de aulas</description>
+	<name>calender</name>
+	<description>Seminário web</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -39,6 +39,12 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
