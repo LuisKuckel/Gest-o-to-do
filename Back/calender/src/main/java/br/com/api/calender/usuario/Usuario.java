@@ -1,4 +1,4 @@
-package br.com.api.calender;
+package br.com.api.calender.usuario;
 
 import jakarta.persistence.*;
 
@@ -10,11 +10,11 @@ public class Usuario {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column (name = "idusuario" )
     private Integer id;
-    @Column (name = "nome", length = 200, nullable = true)
+    @Column (name = "nome", length = 100)
     private String nome;
-    @Column (name = "email", length = 50, nullable = true)
+    @Column (name = "email", length = 100)
     private String email;
-    @Column (name = "senha", columnDefinition = "TEXT", nullable = true)
+    @Column (name = "senha", length = 45)
     private String senha;
 
     public Integer getId() {

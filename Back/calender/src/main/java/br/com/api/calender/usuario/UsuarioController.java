@@ -1,4 +1,4 @@
-package br.com.api.calender;
+package br.com.api.calender.usuario;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

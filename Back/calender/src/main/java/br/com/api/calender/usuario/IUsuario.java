@@ -1,4 +1,4 @@
-package br.com.api.calender;
+package br.com.api.calender.usuario;
 
 import org.springframework.data.repository.CrudRepository;
 
