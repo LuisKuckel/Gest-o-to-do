@@ -1,0 +1,45 @@
+/* Estilizar o fundo dos dias com eventos */
+.fc-event {
+  background-color: #4caf50; /* Cor de fundo do evento */
+  color: white; /* Cor do texto */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Arredonda os cantos */
+}
+
+/* Alterar a aparência dos eventos no hover */
+.fc-event:hover {
+  background-color: #45a049;
+  cursor: pointer;
+}
+
+/* Estilizar o título do calendário */
+.fc-toolbar-title {
+  font-size: 1.5rem; /* Tamanho do título */
+  color: #3f51b5; /* Cor do título */
+}
+
+/* Cor personalizada para dias selecionados */
+.fc-daygrid-day {
+  background-color: #f9f9f9;
+}
+
+.fc-day-today {
+  background-color: #ffecb3 !important; /* Destacar o dia atual */
+}
+
+/* Personalizar botões da navegação */
+.fc-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+}
+
+.fc-button:hover {
+  background-color: #1976d2;
+}
+/* Estilizando o contêiner do calendário para largura maior */
+#calendario {
+  width: auto; /* Ajuste para ocupar 90% da largura da tela */
+  max-width: auto; /* Limite máximo de largura, se necessário */
+  margin: center; /* Centraliza o calendário */
+}
