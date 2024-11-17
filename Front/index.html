@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tela de Login</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <!-- <script src="./scripts/connection.js" defer></script> -->
 </head>
 
 <body>
@@ -13,8 +14,8 @@
     <div class="form-container">
       <h2>Login</h2>
       <form>
-        <input type="text" placeholder="Nome" required>
-        <input type="email" placeholder="E-mail" required>
+        <input type="email" class="email" name="email" placeholder="E-mail" required>
+        <input type="password" class="password" name="password" placeholder="Senha" required>
         <button type="submit">Entrar</button> <br>
         <h3>Não possui Cadastro ?</h3>
         <a class="link__cadastro" href="./pages/cadastro.html">Cadastrar</a>

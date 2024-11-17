@@ -50,3 +50,5 @@ CREATE TABLE `notas_atividades` (
   FOREIGN KEY (`idusuario`) REFERENCES `usuario`(`idusuario`),
   FOREIGN KEY (`idatividade`) REFERENCES `atividades`(`idatividade`)
 );
+
+select * from notas_atividades

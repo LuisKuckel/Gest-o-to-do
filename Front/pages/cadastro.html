@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página de Cadastro</title>
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <script src="../scripts/connection.js" defer></script>
 </head>
 
 <body>
@@ -13,9 +14,9 @@
     <div class="form-container">
       <h2>Cadastre-se</h2>
       <form>
-        <input type="Nome" placeholder="Seu Nome">
-        <input type="number" placeholder="Seu CPF">
-        <input type="email" placeholder="Seu melhor e-mail">
+        <input type="text" class="nome" name="nome" placeholder="Seu Nome">
+        <input type="text" class="email" name="email" placeholder="Seu E-mail">
+        <input type="password" class="senha" name="senha" placeholder="Sua Senha">
         <button type="submit">Cadastrar</button> <br>
         <h3>Já possui Cadastro ?</h3>
         <a class="link__cadastro" href="../index.html">Fazer Login</a>

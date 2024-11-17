@@ -7,8 +7,10 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin("*")
 @RequestMapping("/usuarios")
 public class UsuarioController {
+
   @Autowired
   private IUsuario dao;
 

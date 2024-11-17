@@ -59,3 +59,5 @@ INSERT INTO `notas_atividades` (`idusuario`, `idatividade`, `nota`) VALUES
 (8, 8, 9.8),
 (9, 9, 8.4),
 (10, 10, 7.5);
+
+select * from usuario;
