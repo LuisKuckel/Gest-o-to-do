@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+  }
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.conteudo-principal {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+h2 {
+    color: #4a4a4a;
+}
+
+.atividade {
+    background-color: #e8e8ff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.atividade h3, .atividade p{
+    margin: 0;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.separador, .separador-notas{
+    flex-grow: 1;   
+    height: 2px;
+    background-color: #4a4a4a;
+    border-radius: 2px;
+    margin: 10px 0;
+}
+#cursos ul{
+    list-style: none;
+    padding: 0;
+}
+#cursos li{
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #e8e8ff;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#cursos table{
+    border-spacing: 15  px 5px;
+}
+.separador-notas{
+    width: 200px;
+}

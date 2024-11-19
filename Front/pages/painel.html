@@ -6,40 +6,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Painel</title>
   <link rel="stylesheet" href="../styles/sidebar.css">
-
+  <link rel="stylesheet" href="../styles/painel.css">
 </head>
 
 <body>
   <div class="container">
     <aside class="menu-lateral">
+      <div class="menu-header">
+        <div class="user-photo">
+          <img src="../img/graduation-icon.svg" alt="user-icon">
+        </div>
+        <div class="user-name">
+          <h2>Olá fulano</h2>
+        </div>
+      </div>
+      <div class="separador"></div>
       <ul>
-        <li><a href="painel.html">Painel de Controle</a></li>
-        <li><a href="cursos.html">Matérias</a></li>
-        <li><a href="calendario.html">Calendário</a></li>
-        <li><a href="/Front/index.html">Sair da Conta</a>
+        <li onclick="window.location.href='painel.html'">
+          <div class="list-icons">
+            <img src="../img/house-icon.svg" alt="main-icon" >
+          </div>
+          <a>Painel de Controle</a>
+        </li>
+        <li onclick="window.location.href='calendario.html'">
+          <div class="list-icons">
+            <img src="../img/calendar-icon.svg" alt="main-icon">
+          </div>
+          <a>Calendário</a>
+        </li>
+        <li onclick="window.location.href='../index.html'">
+          <div class="list-icons">
+            <img src="../img/logout-icon.svg" alt="main-icon" >
+          </div>
+          <a>Sair da Conta</a>
         </li>
       </ul>
     </aside>
-
+    
     <main class="conteudo-principal">
       <section id="painel">
-        <h2>Painel de Controle</h2>
-        <div class="atividade">
-          <h3>Matemática</h3>
-          <p>Lista de Atividades: Potenciação - <strong>15/11/2024</strong></p>
+        <div class="cabecalho">
+          <h2>Painel de Controle</h2>
+          <div class="separador"></div>
         </div>
-        <div class="atividade">
-          <h3>Matemática</h3>
-          <p>Revisão - <strong>22/11/2024</strong></p>
+
+        <div class="atividades">
+          <div class="atividade">
+            <h3>Matemática</h3>
+            <p>Lista de Atividades: Potenciação - <strong>15/11/2024</strong></p>
+          </div>
+          <div class="atividade">
+            <h3>Matemática</h3>
+            <p>Revisão - <strong>22/11/2024</strong></p>
+          </div>
         </div>
+
       </section>
 
       <section id="cursos">
-        <h2>Lista de Matérias</h2>
+        <div class="cabecalho">
+          <h2>Notas Gerais</h2>
+          <div class="separador"></div>
+        </div>
         <ul>
-          <a>Matemática</a><br>
-          <a>Programação Web</a><br>
-          <a>POO</a>
+          <li>Matemática <div class="separador-notas"></div> 9/10</li>
+          <li>Programação Web <div class="separador-notas"></div> 7/10</li>
+          <li>POO <div class="separador-notas"></div> 8/10</li>
         </ul>
       </section>
     </main>

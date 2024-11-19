@@ -1,3 +1,5 @@
+
+
 /* Estilizar o fundo dos dias com eventos */
 .fc-event {
   background-color: #4caf50; /* Cor de fundo do evento */
@@ -15,7 +17,7 @@
 /* Estilizar o título do calendário */
 .fc-toolbar-title {
   font-size: 1.5rem; /* Tamanho do título */
-  color: #3f51b5; /* Cor do título */
+  color: #0056b3; /* Cor do título */
 }
 
 /* Cor personalizada para dias selecionados */
@@ -39,7 +41,7 @@
 }
 /* Estilizando o contêiner do calendário para largura maior */
 #calendario {
-  width: auto; /* Ajuste para ocupar 90% da largura da tela */
+  width:60%; /* Ajuste para ocupar 90% da largura da tela */
   max-width: auto; /* Limite máximo de largura, se necessário */
   margin: center; /* Centraliza o calendário */
 }
