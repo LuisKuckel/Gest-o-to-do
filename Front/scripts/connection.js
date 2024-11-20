@@ -34,4 +34,5 @@ formulario.addEventListener("submit", function(event){
 
     cadastrar();
     limpar();
+    window.location.href = "../index.html"
 });

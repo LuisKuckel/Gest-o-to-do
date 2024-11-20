@@ -7,6 +7,7 @@
   <title>Painel</title>
   <link rel="stylesheet" href="../styles/sidebar.css">
   <link rel="stylesheet" href="../styles/painel.css">
+  <script src="../scripts/infos.js"></script>
 </head>
 
 <body>
@@ -17,7 +18,7 @@
           <img src="../img/graduation-icon.svg" alt="user-icon">
         </div>
         <div class="user-name">
-          <h2>Olá fulano</h2>
+          <h2>Olá ...</h2>
         </div>
       </div>
       <div class="separador"></div>
@@ -34,7 +35,7 @@
           </div>
           <a>Calendário</a>
         </li>
-        <li onclick="window.location.href='../index.html'">
+        <li id="botaoSair">
           <div class="list-icons">
             <img src="../img/logout-icon.svg" alt="main-icon" >
           </div>
@@ -51,14 +52,6 @@
         </div>
 
         <div class="atividades">
-          <div class="atividade">
-            <h3>Matemática</h3>
-            <p>Lista de Atividades: Potenciação - <strong>15/11/2024</strong></p>
-          </div>
-          <div class="atividade">
-            <h3>Matemática</h3>
-            <p>Revisão - <strong>22/11/2024</strong></p>
-          </div>
         </div>
 
       </section>
@@ -68,7 +61,7 @@
           <h2>Notas Gerais</h2>
           <div class="separador"></div>
         </div>
-        <ul>
+        <ul id="areaNotas">
           <li>Matemática <div class="separador-notas"></div> 9/10</li>
           <li>Programação Web <div class="separador-notas"></div> 7/10</li>
           <li>POO <div class="separador-notas"></div> 8/10</li>

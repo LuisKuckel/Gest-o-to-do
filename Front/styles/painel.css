@@ -20,7 +20,11 @@ body {
 h2 {
     color: #4a4a4a;
 }
-
+.atividades{
+    height: 250px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
 .atividade {
     background-color: #e8e8ff;
     margin: 10px 0;
@@ -63,4 +67,8 @@ h2 {
 }
 .separador-notas{
     width: 200px;
+}
+#areaNotas > p {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
 }
