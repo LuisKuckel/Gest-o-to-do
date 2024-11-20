@@ -18,7 +18,15 @@ function cadastrar () {
             })
         
         })
-        .then(function (res) { console.log(res) })
+        .then(function (res) { 
+            console.log(res) 
+            if (!res.ok) {
+                alert('Erro ao cadastrar. Status: ' + res.status);
+            } else {
+                alert('Cadastro realizado com sucesso!');
+                window.location.href = "../index.html"
+            }
+        })
         .catch(function(res) {console.log(res) })
     
 };
@@ -32,7 +40,17 @@ function limpar () {
 formulario.addEventListener("submit", function(event){
     event.preventDefault();
 
-    cadastrar();
-    limpar();
-    window.location.href = "../index.html"
+    const email = document.querySelector('.email').value;
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+    if (emailRegex.test(email)) {
+        cadastrar(); 
+        limpar();
+
+      } else {
+        alert('Por favor, insira um email válido.');
+      }
+    
+
 });
+

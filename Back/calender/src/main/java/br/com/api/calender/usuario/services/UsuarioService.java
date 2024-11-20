@@ -24,8 +24,8 @@ public class UsuarioService {
         return lista;
     }
     public Usuario criarUsuario(Usuario usuario) {
-        String encoder = this.passwordEncoder.encode(usuario.getSenha());
-        usuario.setSenha(encoder);
+        //String encoder = this.passwordEncoder.encode(usuario.getSenha());
+        //usuario.setSenha(encoder);
         Usuario usuarioNovo = repository.save(usuario);
         return usuarioNovo;
     }
